@@ -1,6 +1,6 @@
 ﻿namespace EventsAndDelegatesExampleConsole
 {
-    internal class VideoEventArgs : EventArgs
+    public class VideoEventArgs : EventArgs
     {
         internal Video Video { get; set; }
     }
